@@ -1,5 +1,11 @@
 # @serverless-stack/cli2
 
+## 2.41.6
+
+### Patch Changes
+
+- [#3722](https://github.com/sst/sst/pull/3722) [`6f8fb48f2`](https://github.com/sst/sst/commit/6f8fb48f2b6dd195a732114abf33bd4e9f68439f) Thanks [@adrianisk](https://github.com/adrianisk)! - Fix cacheTo Function/container prop
+
 ## 2.41.5
 
 ### Patch Changes
