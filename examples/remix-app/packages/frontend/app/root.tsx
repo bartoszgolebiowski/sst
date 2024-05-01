@@ -1,4 +1,3 @@
-import type { MetaFunction } from "@remix-run/node";
 import {
   Links,
   LiveReload,
@@ -8,11 +7,15 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
-export const meta: MetaFunction = () => ({
-  charset: "utf-8",
-  title: "New Remix App 5",
-  viewport: "width=device-width,initial-scale=1",
-});
+export const meta = () => {
+  return [
+    {
+      charset: "utf-8",
+      title: "New Remix App 5",
+      viewport: "width=device-width,initial-scale=1",
+    },
+  ];
+};
 
 export default function App() {
   return (
